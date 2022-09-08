@@ -6,7 +6,7 @@
 ## Installation 
 You can get ABT [Nuget](https://www.nuget.org/packages/ABT/) package by typing:
 ```powershell
-Install-Package ABT
+dotnet add package ABT --version 6.0.1
 ```
 
 <br/>
@@ -16,10 +16,10 @@ this package will help you quickly build the foundation of your application. It 
 
 ### Sample:
 ```csharp
-    var builder = new ArchitectureBuilder(ArchitectureBuilder.EfContext.Npgsql, "connection string");
-    builder.Create<Book, BookForCreationDto>();
-    builder.Create<User, UserForCreationDto, UserViewModel>();
-    // and so on...
+var builder = new ArchitectureBuilder(ArchitectureBuilder.EfContext.Npgsql, "connection string");
+builder.Create<Book, BookForCreationDto>();
+builder.Create<User, UserForCreationDto, UserViewModel>();
+// and so on...
 ```
 
 <br/>
@@ -34,3 +34,5 @@ Telegram: @asadullokhn
 <br />
 E-Mail: asadullokhnurullaev@gmail.com
 <br />
+
+Hope you will like this ❤️
