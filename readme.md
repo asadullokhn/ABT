@@ -1,6 +1,6 @@
 ﻿
 
-# ABT Package - Build your backend much faster
+# ABT Package - Build your application much faster
 [![preview version](https://img.shields.io/nuget/vpre/ABT)](https://www.nuget.org/packages/ABT/absoluteLatest)
 
 ## Installation 
@@ -12,7 +12,11 @@ dotnet add package ABT --version 6.0.1
 <br/>
 
 ## About
-this package will help you quickly build the foundation of your application. It is enough to take an object and use the generic method - Create<>, which accepts at least two types: The first -> type (entity) to save in the database. The second is DTO
+This package will help you quickly build the foundation of your application by using N-tiered architecture. You just need to get an object from a class named ArchitectureBuilder and use the generic method - Create<>, which accepts at least two types:
+<br>
+First type (entity) to save in the database. 
+<br>
+The second is DTO for creation (data transfer object) 
 
 ### Sample:
 ```csharp
@@ -22,17 +26,18 @@ builder.Create<User, UserForCreationDto, UserViewModel>();
 // and so on...
 ```
 
-<br/>
+<br>
 
 If you have any suggestions, comments or questions, please feel free to contact me on:
-<br />
+<br>
 GitHub: @asadullokhn
-<br />
+<br>
 LinkedIn: @asadullokhn
-<br />
+<br>
 Telegram: @asadullokhn
-<br />
+<br>
 E-Mail: asadullokhnurullaev@gmail.com
-<br />
+<br>
+<br>
 
 Hope you will like this ❤️
