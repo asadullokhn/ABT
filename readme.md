@@ -6,21 +6,17 @@
 ## Installation 
 You can get ABT [Nuget](https://www.nuget.org/packages/ABT/) package by typing:
 ```powershell
-dotnet add package ABT --version 6.0.1
+dotnet add package ABT --version 5.0.1
 ```
 
-<br/>
 
 ## About
-This package will help you quickly build the foundation of your application by using N-tiered architecture. You just need to get an object from a class named ArchitectureBuilder and use the generic method - Create<>, which accepts at least two types:
-<br>
-First type (entity) to save in the database. 
-<br>
-The second is DTO for creation (data transfer object) 
+This package will help you quickly build the foundation of your application. It is enough to take an object and use the generic method - Create<>, which accepts at least two types: The first -> type (entity) to save in the database. The second is DTO
 
 ### Sample:
 ```csharp
-var builder = new ArchitectureBuilder(ArchitectureBuilder.EfContext.Npgsql, "connection string");
+var connectionString = "connection string";
+var builder = new ArchitectureBuilder(ArchitectureBuilder.EfContext.Npgsql, connectionString);
 builder.Create<Book, BookForCreationDto>();
 builder.Create<User, UserForCreationDto, UserViewModel>();
 // and so on...
@@ -37,7 +33,6 @@ LinkedIn: @asadullokhn
 Telegram: @asadullokhn
 <br>
 E-Mail: asadullokhnurullaev@gmail.com
-<br>
-<br>
+
 
 Hope you will like this ❤️
