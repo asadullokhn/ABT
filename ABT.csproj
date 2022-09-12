@@ -5,7 +5,7 @@
         <PackageVersion>5.0.1</PackageVersion>
         <Authors>Asadullokh Nurullaev</Authors>
         <PackageLicenseUrl></PackageLicenseUrl>
-        <Description>this package will help you quickly build the foundation of your application. It is enough to take an object and use the generic method - Create&lt;&gt;, which accepts at least two types: The first -&gt; type (entity) to save in the database. The second is DTO</Description>
+        <Description>This package will help you quickly build the foundation of your application. It is enough to take an object and use the generic method - Create&lt;&gt;, which accepts at least two types: The first -&gt; type (entity) to save in the database. The second is DTO</Description>
         <PackageProjectUrl>https://github.com/asadullokhn/ABT</PackageProjectUrl>
         <RepositoryUrl>https://github.com/asadullokhn/ABT</RepositoryUrl>
         <PackageTags>ABT; EF;</PackageTags>
