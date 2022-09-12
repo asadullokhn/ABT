@@ -1,12 +1,14 @@
-namespace ABT;
-
-public sealed partial class ArchitectureBuilder
+namespace ABT
 {
-    public enum EfContext
+
+    public sealed partial class ArchitectureBuilder
     {
-        Npgsql,
-        Mssql,
-        Mysql,
-        Sqlite
+        public enum EfContext
+        {
+            Npgsql,
+            Mssql,
+            Mysql,
+            Sqlite
+        }
     }
 }

@@ -1,18 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-        <PackageVersion>6.0.1</PackageVersion>
+        <TargetFramework>net5.0</TargetFramework>
+        <PackageVersion>5.0.1</PackageVersion>
         <Authors>Asadullokh Nurullaev</Authors>
         <PackageLicenseUrl></PackageLicenseUrl>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Description>this package will help you quickly build the foundation of your application. It is enough to take an object and use the generic method - Create&lt;&gt;, which accepts at least two types: The first -&gt; type (entity) to save in the database. The second is DTO</Description>
         <PackageProjectUrl>https://github.com/asadullokhn/ABT</PackageProjectUrl>
         <RepositoryUrl>https://github.com/asadullokhn/ABT</RepositoryUrl>
         <PackageTags>ABT; EF;</PackageTags>
-        <PackageReleaseNotes>This package version supports only .NET6</PackageReleaseNotes>
+        <PackageReleaseNotes>This package version .NET 5</PackageReleaseNotes>
         <DelaySign>true</DelaySign>
     </PropertyGroup>
 
